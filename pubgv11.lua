@@ -10,9 +10,6 @@ function HOME()
     if MN == 1 then
       wh625()
       red()
-      recoil()
-      hs()
-      aimbot()
     end
      if MN == 2 then
      os.exit()
@@ -52,47 +49,6 @@ gg.clearResults()
 gg.toast("☬ Color Red ☬")
 gg.setVisible(false)
 gg.sleep(1000)
-gg.sleep(1000)
-end
-
-function recoil()
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1.5584387e28", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("0", gg.TYPE_FLOAT)
-gg.clearResults()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("1D;0.05000000075F;0.10000000149F;0.55000001192F;9.5F;15.0F", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("1", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(800)
-gg.editAll("0", gg.TYPE_DWORD)
-gg.toast("☬ Less Recoil ☬")
-gg.setVisible(false)
-gg.sleep(1000)
-end
-
-function hs()
-gg.setRanges(gg.REGION_ANONYMOUS)
-gg.searchNumber("9.20161819458;23;25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
-gg.editAll("240", gg.TYPE_FLOAT)
-gg.toast("☬ Auto Headshot ☬")
-gg.setVisible(false)
-gg.sleep(1000)
-end
-
-function aimbot()
-gg.clearResults()
-gg.setRanges(gg.REGION_C_DATA)
-gg.setRanges(gg.REGION_C_DATA)
-gg.searchNumber("360;0.0001;1478828288", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.searchNumber("0.0001", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(100)
-gg.editAll("9999", gg.TYPE_FLOAT)
-gg.toast("☬ Super Aimbot ☬")
-gg.setVisible(false)
 gg.sleep(1000)
 end
 

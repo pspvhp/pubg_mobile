@@ -2,14 +2,13 @@ gg.setVisible(false)
 HOME = 1
 function HOME()
   MN = gg.choice({
-	"▶  ✧ Lobby ✧ ",
+    "▶  ✧ Lobby ✧ ",
     "▶  ⎋ᎬXIT "
-  }, nil, "PUBG 0.12")
+  }, nil, "PUBG 0.13.5")
   if MN == nil then
   else
     if MN == 1 then
-      wh625()
-      red()
+      all()
     end
      if MN == 2 then
      os.exit()
@@ -18,39 +17,43 @@ function HOME()
   PUBGMH = -1
 end	
 
-function wh625()
+function all()
 gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("135,215D;4,140D;3.7615819e-37;2::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("130", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.setRanges(gg.REGION_BAD)
-  gg.searchNumber("194D;3.7615819e-37;2;-1;1;-127::", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(10)
-  gg.editAll("130", gg.TYPE_FLOAT)
-  gg.clearResults()
-  gg.searchNumber("69,778D;1,669,332,992D;11D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.searchNumber("11", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-  gg.getResults(100)
-  gg.editAll("32777", gg.TYPE_DWORD)
-  gg.toast("\226\152\172 Wallhack 625 \226\152\172")
-gg.sleep(1000)
-end
-function red()
-  gg.clearResults()
-gg.searchNumber("8,196D;8,192D;8,200D::", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("1.3312335e-43;120;1.6623075e-19;9.2194229e-41", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("120", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("2", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("4.8146053e21;1.3912556e-19;1.5414283e-44;120;-1;1;-127", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("120", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(1)
+gg.editAll("2", gg.TYPE_FLOAT)
+gg.toast("Fix Wallhack")
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("8,192D;256D;8200D", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-gg.getResults(10)
+gg.getResults(20)
 gg.editAll("7", gg.TYPE_DWORD)
 gg.clearResults()
-gg.toast("☬ Color Red ☬")
-gg.setVisible(false)
-gg.sleep(1000)
-gg.sleep(1000)
+gg.toast("Body Red Success")
+gg.clearResults()
+gg.setRanges(gg.REGION_BAD)
+gg.searchNumber("2.718519e-43F;3.7615819e-37F;2.0F;-1.0F;1.0F;-127.0F;0.00999999978F::200", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.searchNumber("5.8013756e-42F;-5.5695588e-40F;2.0F::100", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
+gg.getResults(30)
+gg.editAll("120", gg.TYPE_FLOAT)
+gg.clearResults()
+gg.toast("Active 626")
 end
+
 
 while true do
   if gg.isVisible(true) then

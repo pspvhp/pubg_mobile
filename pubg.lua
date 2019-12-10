@@ -45,20 +45,20 @@ end
 
 -----------------------------------------------
 function wh()
-gg.setRanges(gg.REGION_VIDEO)
+gg.setRanges(gg.REGION_BAD)
 gg.searchNumber('135,215D;4,140D;3.7615819e-37;2::', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll('130', gg.TYPE_FLOAT)
 gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO)
+gg.setRanges(gg.REGION_BAD)
 gg.searchNumber('194D;3.7615819e-37;2;-1;1;-127::', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.searchNumber('2', gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(10)
 gg.editAll('130', gg.TYPE_FLOAT)
 gg.clearResults()
 gg.clearResults()
-gg.setRanges(gg.REGION_VIDEO)
+gg.setRanges(gg.REGION_BAD)
 gg.searchNumber("112;8200;96;256", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.refineNumber("8200", gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
 gg.getResults(9999)
@@ -114,4 +114,3 @@ gg.setVisible(false)
 end
 if LOL == 1 then HOME() end
 end
-

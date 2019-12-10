@@ -7,8 +7,8 @@ AB = gg.choice({
 ,nil, "")
 
 if AB == 1 then LOBBY() end
-if AB == 2 then OFF() end
-if AB == 3 then ON() end
+if AB == 2 then ON() end
+if AB == 3 then OFF() end
 LOL = -1
 end
 

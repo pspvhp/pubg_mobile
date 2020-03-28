@@ -2,8 +2,8 @@
 function HOME()
 AB = gg.choice({ 
 "Lobby",
-'Plane',
-'Landing'}
+"Plane",
+"Landing"}
 ,nil, "")
 
 if AB == 1 then LOBBY() end
@@ -90,7 +90,7 @@ function LOBBY()
   gg.clearResults()
         
 end
-
+end
 function ON()
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)

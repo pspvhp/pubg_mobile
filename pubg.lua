@@ -1,4 +1,4 @@
-
+gg.setVisible(false)
 function HOME()
 AB = gg.choice({ 
 "Lobby",

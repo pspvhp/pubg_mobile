@@ -14,20 +14,6 @@ end
 LOL = -1
 end
 
-function HOME()
-Emix = gg.multiChoice({
-"Lobby",
-"Plane",
-"Land",
-}, nil, "")
-if Emix == nil then else
-if Emix[1] == true then LOBBY() end
-if Emix[2] == true then F2() end
-if Emix[3] == true then F3() end
-end
-PUBGMH = -1
-end
-
 function LOBBY()
  io.open(gg.EXT_STORAGE .. "/Android/data/com.vng.pubgmobile/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Config/Android/AntiCheat.ini", "w"):write("���z������ �ا����&���z��� ���`�x(��]jע}�azv��'!y�^��+")
 

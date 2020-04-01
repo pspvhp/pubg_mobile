@@ -47,9 +47,8 @@ function LOBBY()
   gg.editAll("90", gg.TYPE_FLOAT)
   gg.toast("No Recoil 100%  Lobby Aktif Plak")
   gg.clearResults()
-        
 end
-end
+
 function ON()
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)

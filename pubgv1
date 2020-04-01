@@ -29,12 +29,11 @@ function ON()
     gg.clearResults()
     gg.toast(' ✔️')
   
-	gg.clearResults()
-    gg.setRanges(gg.REGION_BAD)
-    gg.searchNumber('96D;8200;196,615', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.searchNumber('8200', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
-    gg.getResults(10)
-    gg.editAll('7', gg.TYPE_DWORD)
+ gg.clearResults()
+    gg.searchNumber('69,778D;1,669,332,992D;11D', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.searchNumber('11', gg.TYPE_DWORD, false, gg.SIGN_EQUAL, 0, -1)
+    gg.getResults(100)
+    gg.editAll('32777', gg.TYPE_DWORD)
     gg.toast(' ✔️')
         
 end

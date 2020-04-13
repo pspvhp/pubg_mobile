@@ -2,7 +2,7 @@ gg.setVisible(false)
 
 function HOME()
 AB = gg.choice({ 
-"Speed medium ",
+"Speed medium",
 'Wall + color',
 'Landing 1 click'}
 ,nil, "")
